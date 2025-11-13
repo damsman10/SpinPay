@@ -11,7 +11,7 @@ const Header = ({ user }) => {
         <img
           src={user?.avatar || "/avatar-gold.png"} // fallback image
           alt="User avatar"
-          className="w-10 h-10 rounded-full object-cover border-2 border-white/20"
+          className="w-10 h-10 rounded-full bg-white object-cover border-2 border-white/20"
         />
 
         {/* Greeting on one line */}
